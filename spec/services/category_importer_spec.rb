@@ -284,5 +284,13 @@ describe CategoryImporter do
         expect(subcategory_10.active).to be_truthy
       end
     end
+    context "when a category has wrong defined 'isLeaf'" do
+      let(:file_name) { 'root_with_1_level_subcategories_wrong_isleaf.json' }
+      let(:first_level_cat_id) { 3836 }
+      it 'creates a root category, and a subcategory' do
+        expect { subject.call(data_file) }
+          .to raise_error(CategoryImporter::WrongDefinedLeafNode)
+      end
+    end
   end
 end
