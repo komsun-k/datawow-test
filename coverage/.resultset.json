@@ -1,0 +1,188 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/services/category_importer.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          9,
+          null,
+          null,
+          1,
+          9,
+          null,
+          null,
+          1,
+          9,
+          null,
+          9,
+          9,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          27,
+          null,
+          27,
+          18,
+          1,
+          null,
+          null,
+          17,
+          18,
+          null,
+          null,
+          null,
+          null,
+          1,
+          27,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/models/category.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null
+        ]
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/controllers/categories_controller.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/services/Xxx.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1627469046
+  }
+}

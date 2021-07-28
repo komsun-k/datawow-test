@@ -54,5 +54,6 @@ group :test do
   gem 'selenium-webdriver'
   gem 'shoulda-matchers'
   gem 'webdrivers'
+  gem 'simplecov', require: false
   gem 'rexml', '~> 3.2', '>= 3.2.5' # An XML toolkit for Ruby. REXML supports both tree and stream document parsing.
 end
