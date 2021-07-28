@@ -41,7 +41,7 @@ describe CategoryImporter do
         expect(root_category.active).to be_truthy
       end
     end
-    context "with a category with 1-level subcategories" do
+    context "with a category with a 1-level-subcategory" do
       let(:file_name) { 'root_with_1_level_subcategories.json' }
       let(:first_level_cat_id) { 3836 }
       it 'creates a root category, and a subcategory' do
@@ -73,6 +73,53 @@ describe CategoryImporter do
         expect(subcategory_1.lsc_set_id).to eq(0)
         expect(subcategory_1.variation_cat).to be_falsey
         expect(subcategory_1.active).to be_truthy
+      end
+    end
+    context "with a category with 2 1-level-subcategories" do
+      let(:file_name) { 'root_with_1_level_2subcategories.json' }
+      let(:first_level_cat_id) { 3836 }
+      it 'creates a root category, and a subcategory' do
+        subject.call(data_file)
+        expect(Category.count).to eq(3)
+
+        root_category = Category.find(first_level_cat_id)
+        expect(root_category.id).to eq(first_level_cat_id)
+        expect(root_category.first_level_cat_id).to eq(first_level_cat_id)
+        expect(root_category.parent_cat_id).to be_nil
+        expect(root_category.name).to eq('กล้อง')
+        expect(root_category.label).to eq('กล้อง')
+        expect(root_category.leaf).to be_falsey
+        expect(root_category.cat_property_models).to eq([])
+        expect(root_category.rules).to eq({})
+        expect(root_category.lsc_set_id).to eq(0)
+        expect(root_category.variation_cat).to be_falsey
+        expect(root_category.active).to be_truthy
+
+        subcategory_1_1 = Category.find(4325)
+        expect(subcategory_1_1.id).to eq(4325)
+        expect(subcategory_1_1.first_level_cat_id).to eq(first_level_cat_id)
+        expect(subcategory_1_1.parent_cat_id).to eq(first_level_cat_id)
+        expect(subcategory_1_1.name).to eq('กล้องบริดจ์')
+        expect(subcategory_1_1.label).to eq('กล้องบริดจ์')
+        expect(subcategory_1_1.leaf).to be_truthy
+        expect(subcategory_1_1.cat_property_models).to eq([])
+        expect(subcategory_1_1.rules).to eq({})
+        expect(subcategory_1_1.lsc_set_id).to eq(0)
+        expect(subcategory_1_1.variation_cat).to be_falsey
+        expect(subcategory_1_1.active).to be_truthy
+
+        subcategory_1_2 = Category.find(14445)
+        expect(subcategory_1_2.id).to eq(14445)
+        expect(subcategory_1_2.first_level_cat_id).to eq(first_level_cat_id)
+        expect(subcategory_1_2.parent_cat_id).to eq(first_level_cat_id)
+        expect(subcategory_1_2.name).to eq('กล้องติดรถยนต์')
+        expect(subcategory_1_2.label).to eq('กล้องติดรถยนต์')
+        expect(subcategory_1_2.leaf).to be_truthy
+        expect(subcategory_1_2.cat_property_models).to eq([])
+        expect(subcategory_1_2.rules).to eq({})
+        expect(subcategory_1_2.lsc_set_id).to eq(0)
+        expect(subcategory_1_2.variation_cat).to be_falsey
+        expect(subcategory_1_2.active).to be_truthy
       end
     end
     context "with a category with 2-level subcategories" do

@@ -1,0 +1,40 @@
+[
+  {
+    "id": 3836,
+    "name": "กล้อง",
+    "label": "กล้อง",
+    "isLeaf": false,
+    "catPropertyModels": [],
+    "rules": {},
+    "firstLevelCatId": 3836,
+    "lscSetId": 0,
+    "variationCat": false,
+    "active": true,
+    "subcategories": [
+      {
+        "id": 4325,
+        "name": "กล้องบริดจ์",
+        "label": "กล้องบริดจ์",
+        "isLeaf": true,
+        "catPropertyModels": [],
+        "rules": {},
+        "firstLevelCatId": 3836,
+        "lscSetId": 0,
+        "variationCat": false,
+        "active": true
+      },
+      {
+        "id": 14445,
+        "name": "กล้องติดรถยนต์",
+        "label": "กล้องติดรถยนต์",
+        "isLeaf": true,
+        "catPropertyModels": [],
+        "rules": {},
+        "firstLevelCatId": 3836,
+        "lscSetId": 0,
+        "variationCat": false,
+        "active": true
+      }
+    ]
+  }
+]
