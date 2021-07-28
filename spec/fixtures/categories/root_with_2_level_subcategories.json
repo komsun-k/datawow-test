@@ -1,0 +1,42 @@
+[
+  {
+    "id": 9154,
+    "name": "กระเป๋า & กระเป๋าเดินทาง",
+    "label": "กระเป๋า & กระเป๋าเดินทาง",
+    "isLeaf": false,
+    "catPropertyModels": [],
+    "rules": {},
+    "firstLevelCatId": 9154,
+    "lscSetId": 0,
+    "variationCat": false,
+    "active": true,
+    "subcategories": [
+      {
+        "id": 13423,
+        "name": "กระเป๋าเด็ก",
+        "label": "กระเป๋าเด็ก",
+        "isLeaf": false,
+        "catPropertyModels": [],
+        "rules": {},
+        "firstLevelCatId": 9154,
+        "lscSetId": 0,
+        "variationCat": false,
+        "active": true,
+        "subcategories": [
+          {
+            "id": 13451,
+            "name": "ขวดน้ำสำหรับเด็ก",
+            "label": "ขวดน้ำสำหรับเด็ก",
+            "isLeaf": true,
+            "catPropertyModels": [],
+            "rules": {},
+            "firstLevelCatId": 9154,
+            "lscSetId": 0,
+            "variationCat": false,
+            "active": true
+          }
+        ]
+      }
+    ]
+  }
+]

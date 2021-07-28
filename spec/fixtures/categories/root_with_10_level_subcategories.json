@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1000,
+    "name": "root category",
+    "label": "root category",
+    "isLeaf": false,
+    "catPropertyModels": [],
+    "rules": {},
+    "firstLevelCatId": 1000,
+    "lscSetId": 0,
+    "variationCat": false,
+    "active": true,
+    "subcategories": [
+      {
+        "id": 1001,
+        "name": "subcategory 1",
+        "label": "subcategory 1",
+        "isLeaf": false,
+        "catPropertyModels": [],
+        "rules": {},
+        "firstLevelCatId": 1000,
+        "lscSetId": 0,
+        "variationCat": false,
+        "active": true,
+        "subcategories": [
+          {
+            "id": 1002,
+            "name": "subcategory 2",
+            "label": "subcategory 2",
+            "isLeaf": false,
+            "catPropertyModels": [],
+            "rules": {},
+            "firstLevelCatId": 1000,
+            "lscSetId": 0,
+            "variationCat": false,
+            "active": true,
+            "subcategories": [
+              {
+                "id": 1003,
+                "name": "subcategory 3",
+                "label": "subcategory 3",
+                "isLeaf": false,
+                "catPropertyModels": [],
+                "rules": {},
+                "firstLevelCatId": 1000,
+                "lscSetId": 0,
+                "variationCat": false,
+                "active": true,
+                "subcategories": [
+                  {
+                    "id": 1004,
+                    "name": "subcategory 4",
+                    "label": "subcategory 4",
+                    "isLeaf": false,
+                    "catPropertyModels": [],
+                    "rules": {},
+                    "firstLevelCatId": 1000,
+                    "lscSetId": 0,
+                    "variationCat": false,
+                    "active": true,
+                    "subcategories": [
+                      {
+                        "id": 1005,
+                        "name": "subcategory 5",
+                        "label": "subcategory 5",
+                        "isLeaf": false,
+                        "catPropertyModels": [],
+                        "rules": {},
+                        "firstLevelCatId": 1000,
+                        "lscSetId": 0,
+                        "variationCat": false,
+                        "active": true,
+                        "subcategories": [
+                          {
+                            "id": 1006,
+                            "name": "subcategory 6",
+                            "label": "subcategory 6",
+                            "isLeaf": false,
+                            "catPropertyModels": [],
+                            "rules": {},
+                            "firstLevelCatId": 1000,
+                            "lscSetId": 0,
+                            "variationCat": false,
+                            "active": true,
+                            "subcategories": [
+                              {
+                                "id": 1007,
+                                "name": "subcategory 7",
+                                "label": "subcategory 7",
+                                "isLeaf": false,
+                                "catPropertyModels": [],
+                                "rules": {},
+                                "firstLevelCatId": 1000,
+                                "lscSetId": 0,
+                                "variationCat": false,
+                                "active": true,
+                                "subcategories": [
+                                  {
+                                    "id": 1008,
+                                    "name": "subcategory 8",
+                                    "label": "subcategory 8",
+                                    "isLeaf": false,
+                                    "catPropertyModels": [],
+                                    "rules": {},
+                                    "firstLevelCatId": 1000,
+                                    "lscSetId": 0,
+                                    "variationCat": false,
+                                    "active": true,
+                                    "subcategories": [
+                                      {
+                                        "id": 1009,
+                                        "name": "subcategory 9",
+                                        "label": "subcategory 9",
+                                        "isLeaf": false,
+                                        "catPropertyModels": [],
+                                        "rules": {},
+                                        "firstLevelCatId": 1000,
+                                        "lscSetId": 0,
+                                        "variationCat": false,
+                                        "active": true,
+                                        "subcategories": [
+                                          {
+                                            "id": 1010,
+                                            "name": "subcategory 10",
+                                            "label": "subcategory 10",
+                                            "isLeaf": true,
+                                            "catPropertyModels": [],
+                                            "rules": {},
+                                            "firstLevelCatId": 1000,
+                                            "lscSetId": 0,
+                                            "variationCat": false,
+                                            "active": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 9154,
+    "name": "กระเป๋า & กระเป๋าเดินทาง",
+    "label": "กระเป๋า & กระเป๋าเดินทาง",
+    "isLeaf": false,
+    "catPropertyModels": [],
+    "rules": {},
+    "firstLevelCatId": 9154,
+    "lscSetId": 0,
+    "variationCat": false,
+    "active": true,
+    "subcategories": [
+      {
+        "id": 13421,
+        "name": "กระเป๋าผู้ชาย",
+        "label": "กระเป๋าผู้ชาย",
+        "isLeaf": false,
+        "catPropertyModels": [],
+        "rules": {},
+        "firstLevelCatId": 9154,
+        "lscSetId": 0,
+        "active": true,
+        "variationCat": false,
+        "subcategories": [
+          {
+            "id": 13440,
+            "name": "กระเป๋าเป้สะพายหลัง",
+            "label": "กระเป๋าเป้สะพายหลัง",
+            "isLeaf": false,
+            "catPropertyModels": [],
+            "rules": {},
+            "firstLevelCatId": 9154,
+            "lscSetId": 0,
+            "active": true,
+            "variationCat": false,
+            "subcategories": [
+              {
+                "id": 13483,
+                "name": "กระเป๋าเป้ แฟชั่น",
+                "label": "กระเป๋าเป้ แฟชั่น",
+                "isLeaf": true,
+                "catPropertyModels": [],
+                "rules": {},
+                "firstLevelCatId": 9154,
+                "lscSetId": 0,
+                "variationCat": true,
+                "active": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

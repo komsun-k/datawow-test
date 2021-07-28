@@ -1,0 +1,14 @@
+[
+  {
+    "id": 999999,
+    "name": "อื่นๆ",
+    "label": "อื่นๆ",
+    "isLeaf": true,
+    "catPropertyModels": [],
+    "rules": {},
+    "firstLevelCatId": 999999,
+    "lscSetId": 0,
+    "variationCat": false,
+    "active": true
+  }
+]
