@@ -94,7 +94,7 @@
             <p><strong>{{ form.selectedCategory.name }}</strong> เป็นหมวดหมู่ย่อยที่สุดแล้ว</p>
             <p>คุณสามารถ<a @click.prevent="viewSelectingItemDetails">เรียกดูรายละเอียดของหมวดหมู่นี้</a>ได้</p>
           </div>
-          <div class="listings">
+          <div v-if="!loading" class="listings">
             <div
               v-for="category in searchResults.subcategories"
               :key="`child-categories-${category.id}`"
