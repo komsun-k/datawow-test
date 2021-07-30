@@ -1,13 +1,35 @@
-// This file is automatically compiled by Webpack, along with any other files
-// present in this directory. You're encouraged to place your actual application logic in
-// a relevant structure within app/javascript and only use these pack files to reference
-// that code so it'll be compiled.
+import Vue from 'vue/dist/vue.esm'
 
-import Rails from "@rails/ujs"
-import Turbolinks from "turbolinks"
-import * as ActiveStorage from "@rails/activestorage"
-import "channels"
+import 'es6-promise/auto'
+import axios from 'axios'
 
-Rails.start()
-Turbolinks.start()
-ActiveStorage.start()
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+import langEn from 'element-ui/lib/locale/lang/en'
+import langTh from 'element-ui/lib/locale/lang/th'
+import locale from 'element-ui/lib/locale'
+
+// Pages
+import Homepage from '../pages/Homepage.vue'
+
+window.eventBus = new Vue()
+Vue.config.productionTip = false
+Vue.use(ElementUI, { langTh, langEn })
+locale.use(langEn)
+
+document.addEventListener('DOMContentLoaded', () => {
+  axios.defaults.headers.common['X-CSRF-Token'] = document
+    .querySelector('meta[name="csrf-token"]')
+    .getAttribute('content')
+
+  const app = new Vue({
+    el: '#app',
+    data() {
+      return {
+      }
+    },
+    components: {
+      Homepage
+    }
+  })
+})
