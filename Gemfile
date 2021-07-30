@@ -21,6 +21,7 @@ gem 'autoprefixer-rails' # Automatically add vendor prefixes to CSS rules
 group :production do
   gem 'heroku-deflater' # A simple rack middleware that enables compressing of your sprockets and webpacker assets and application responses on Heroku
   gem 'rack-timeout' # Abort requests that are taking too long; an exception is raised
+  gem 'rails_12factor'
 end
 
 group :development, :test do
