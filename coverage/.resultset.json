@@ -152,6 +152,25 @@
         "branches": {
         }
       },
+      "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/queries/categories_query.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
       "/Users/airtimemachine/MyProjects/assignemnts/datawow-test/app/services/Xxx.rb": {
         "lines": [
           0,
@@ -183,6 +202,6 @@
         }
       }
     },
-    "timestamp": 1627469046
+    "timestamp": 1627469653
   }
 }
