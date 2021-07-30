@@ -57,3 +57,6 @@ group :test do
   gem 'simplecov', require: false
   gem 'rexml', '~> 3.2', '>= 3.2.5' # An XML toolkit for Ruby. REXML supports both tree and stream document parsing.
 end
+
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

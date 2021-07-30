@@ -119,6 +119,8 @@ GEM
     nio4r (2.5.7)
     nokogiri (1.11.7-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.11.7-x86_64-linux)
+      racc (~> 1.4)
     pg (1.2.3)
     pry (0.13.1)
       coderay (~> 1.1)
@@ -260,6 +262,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-linux
 
 DEPENDENCIES
   autoprefixer-rails
@@ -290,6 +293,7 @@ DEPENDENCIES
   spring-commands-rspec
   spring-watcher-listen (~> 2.0.0)
   turbolinks (~> 5)
+  tzinfo-data
   web-console (>= 4.1.0)
   webdrivers
   webpacker (~> 5.0)
