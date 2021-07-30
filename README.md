@@ -1,6 +1,6 @@
 # README
 
-You can access the deployed application on <https://herokuapp.xxxx.com>
+You can access the deployed application on <https://datawow.herokuapp.com/>
 
 This project's stack is:
 - Ruby on Rails
@@ -14,7 +14,7 @@ You have no need to setup locally, however I place the way to make it work local
 1. After do git clone and setup the database. Then run a seeding-rake-task to import all categories from `categories.json`.
 
 ```bash
-$ bundle exec rspec
+$ bin/rake data:seed_categories
 ```
 
 2. Setup the frontend
