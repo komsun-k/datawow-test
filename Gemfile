@@ -13,15 +13,12 @@ gem 'jbuilder', '~> 2.7' # Build JSON APIs with ease. Read more: https://github.
 gem 'bootsnap', '>= 1.4.4', require: false # Reduces boot times through caching; required in config/boot.rb
 
 # Frontend
-gem 'uglifier' # Use Uglifier as compressor for JavaScript assets
 gem 'webpacker', '~> 5.0' # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'turbolinks', '~> 5' # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'sass-rails', '>= 6' # Use SCSS for stylesheets
 gem 'autoprefixer-rails' # Automatically add vendor prefixes to CSS rules
 
 group :production do
-  gem 'heroku-deflater' # A simple rack middleware that enables compressing of your sprockets and webpacker assets and application responses on Heroku
-  gem 'rack-timeout' # Abort requests that are taking too long; an exception is raised
   gem 'rails_12factor'
 end
 
